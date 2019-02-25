@@ -106,7 +106,7 @@
             "Key": "84b74382-c0a0-4e86-9a97-10113a17cd37",
             "Value": {
                 "id": "aadb4a96-f74b-4a5d-9a7a-9b45f1fc7488",
-                "resourcePath": "sprites\\sprite2\\sprite2.yy",
+                "resourcePath": "sprites\\spr_camera_zone\\spr_camera_zone.yy",
                 "resourceType": "GMSprite"
             }
         },

@@ -2,7 +2,7 @@
     "id": "84b74382-c0a0-4e86-9a97-10113a17cd37",
     "modelName": "GMSprite",
     "mvc": "1.12",
-    "name": "sprite2",
+    "name": "spr_camera_zone",
     "For3D": false,
     "HTile": false,
     "VTile": false,
