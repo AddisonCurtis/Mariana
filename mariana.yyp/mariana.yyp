@@ -198,6 +198,7 @@
                 "resourceType": "GMObject"
             }
         },
+        {
             "Key": "619d1344-e7c7-46a7-b377-aae6e085c979",
             "Value": {
                 "id": "0a9e0d76-d28b-4de6-b543-f56809931b1b",
@@ -469,6 +470,7 @@
                 "resourceType": "GMSprite"
             }
         },
+        {
             "Key": "d5b8c05b-a757-460a-bb0c-8810a8988dc5",
             "Value": {
                 "id": "e9205520-059f-400c-ad72-0d754e17ade0",
