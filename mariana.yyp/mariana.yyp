@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "63013420-a323-487b-8069-dc39fd9802fb",
+            "Value": {
+                "id": "58b40792-7ee4-4182-a764-2eb8bce2824b",
+                "resourcePath": "objects\\obj_harpoon_shot\\obj_harpoon_shot.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "653aade4-fbba-4ea0-aad4-3cbff80bbb1e",
             "Value": {
                 "id": "4cdde6bf-6dd9-4011-9242-2eaccb30d64e",
@@ -175,6 +183,22 @@
             }
         },
         {
+            "Key": "bd3a8e82-e5ce-4ece-be73-cefbd7b56793",
+            "Value": {
+                "id": "f16cef4d-4b49-49e0-b08a-2c03cae34582",
+                "resourcePath": "sprites\\spr_player\\spr_player.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "be7059dd-3f79-411b-bb58-162b24003990",
+            "Value": {
+                "id": "59d9c406-4f6e-4bdd-bab1-26672aa6fc91",
+                "resourcePath": "sprites\\spr_harpoon_shot\\spr_harpoon_shot.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c0995c0f-98f1-4142-92d4-8cf51a420b41",
             "Value": {
                 "id": "3f62ba0f-32c0-47f5-aef4-5d72a4aac53f",
@@ -199,19 +223,19 @@
             }
         },
         {
-            "Key": "da751ad9-aa0f-489c-ba6c-8c7ed0fec2ce",
-            "Value": {
-                "id": "d28e3bd3-3800-4cc6-a2b5-d31229993d26",
-                "resourcePath": "sprites\\spr_player\\spr_player.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "db9d3743-f78c-4811-a21a-30d70f9b8d90",
             "Value": {
                 "id": "bfbe9daf-8d3b-4e4c-8ac2-f3ef6dcac5ce",
                 "resourcePath": "sprites\\spr_diver\\spr_diver.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e07361ed-774f-4a55-9f52-413f14ca411a",
+            "Value": {
+                "id": "9aaf1e74-a612-4acd-93a9-373fd6688137",
+                "resourcePath": "objects\\obj_harpoon_shot_stuck\\obj_harpoon_shot_stuck.yy",
+                "resourceType": "GMObject"
             }
         },
         {
