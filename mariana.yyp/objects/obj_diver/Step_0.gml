@@ -1,22 +1,23 @@
-// Collison detection
-// For now, just add new collidable objects to this array-
-// (This must be done for every object that can collide, every time some new collidable is added)
-var collidables = [obj_block, obj_weak_block];
+if (not obj_game_controller.noclip) {
+	// Collison detection
+	// For now, just add new collidable objects to this array-
+	// (This must be done for every object that can collide, every time some new collidable is added)
+	var collidables = [obj_block, obj_weak_block];
 
-for (var i=0; i<array_length_1d(collidables); i++) {
-	if (place_meeting(x+hspeed, y, collidables[i])) {
-		hspeed = 0;
-		break;
+	for (var i=0; i<array_length_1d(collidables); i++) {
+		if (place_meeting(x+hspeed, y, collidables[i])) {
+			hspeed = 0;
+			break;
+		}
+	}
+
+	for (var i=0; i<array_length_1d(collidables); i++) {
+		if (place_meeting(x, y+vspeed, collidables[i])) {
+			vspeed = 0;
+			break;
+		}
 	}
 }
-
-for (var i=0; i<array_length_1d(collidables); i++) {
-	if (place_meeting(x, y+vspeed, collidables[i])) {
-		vspeed = 0;
-		break;
-	}
-}
-
 
 // Speed limiting the player
 hspeed = clamp(hspeed, -4, 4);
@@ -27,6 +28,7 @@ if (abs(hspeed) > 0.1 or abs(vspeed) > 0.1) {
 	spriteRotation = point_direction(x, y, x+hspeed, y+vspeed);
 }
 
+// Make sure the player is right-side-up
 if (spriteRotation > 90 and spriteRotation < 270) {
 	facingDirection = abs(facingDirection) * -1;
 } else {
@@ -34,7 +36,6 @@ if (spriteRotation > 90 and spriteRotation < 270) {
 }
 
 // Slow the player down
-// ...somewhat slowly
 if (not keyboard_check(vk_left) and not keyboard_check(vk_right)) {
 	hspeed *= 0.9;
 }

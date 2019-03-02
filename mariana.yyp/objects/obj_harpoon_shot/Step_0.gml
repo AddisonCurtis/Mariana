@@ -21,7 +21,7 @@ if (place_meeting(x-hspeed/2, y-vspeed/2,obj_weak_block))
 
 // Slow down shot from friction and apply "gravity"
 if (abs(hspeed) > 0.1) {
-	hspeed *= sign(hspeed) * 0.05;
+	hspeed *= 0.995;
 }
 vspeed += 0.06;
 
