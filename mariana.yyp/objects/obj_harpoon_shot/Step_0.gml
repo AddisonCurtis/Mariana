@@ -9,14 +9,16 @@ for (var i=0; i<array_length_1d(collidables); i++) {
 		with (instance_create_layer(x, y, "harpoon_shots", obj_harpoon_shot_stuck)) {
 			image_angle = other.image_angle;
 		}
-		instance_destroy(self);
+		instance_destroy();
 		exit;
 	}
 }
 
 // Slow down shot from friction and apply "gravity"
-hspeed -= sign(hspeed) * 0.05;
-vspeed += 0.05;
+if (abs(hspeed) > 0.1) {
+	hspeed *= sign(hspeed) * 0.05;
+}
+vspeed += 0.06;
 
 // Make sure the shot's pointing in the right direction
 image_angle = point_direction(x, y, x+hspeed, y+vspeed);
