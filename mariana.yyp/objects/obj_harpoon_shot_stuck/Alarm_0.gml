@@ -4,3 +4,4 @@ visible = !visible;
 if (countdown <= 0) {
 	instance_destroy(self);
 }
+countdown = countdown -1;

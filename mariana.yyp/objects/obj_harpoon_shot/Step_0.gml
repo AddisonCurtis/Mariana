@@ -1,7 +1,7 @@
 // Collison detection
 // For now, just add new collidable objects to this array-
 // (This must be done for every object that can collide, every time some new collidable is added)
-var collidables = [obj_block, obj_weak_block];
+var collidables = [obj_block, obj_weak_block,obj_enmy_stng_sht,obj_enm_sting_ray,obj_enmy_puffer];
 
 for (var i=0; i<array_length_1d(collidables); i++) {
 	// Instead of preventing a collision, let it overlap a bit and create a new "stuck" version of the shot
@@ -12,6 +12,11 @@ for (var i=0; i<array_length_1d(collidables); i++) {
 		instance_destroy(self);
 		exit;
 	}
+}
+
+if (place_meeting(x-hspeed/2, y-vspeed/2,obj_weak_block))
+{
+	instance_destroy(other);
 }
 
 // Slow down shot from friction and apply "gravity"
