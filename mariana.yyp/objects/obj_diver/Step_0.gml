@@ -1,9 +1,5 @@
+// Collison detection
 if (not obj_game_controller.noclip) {
-	// Collison detection
-	// For now, just add new collidable objects to this array-
-	// (This must be done for every object that can collide, every time some new collidable is added)
-	var collidables = [obj_block, obj_weak_block,obj_weak_block_h];
-
 	for (var i=0; i<array_length_1d(collidables); i++) {
 		if (place_meeting(x+hspeed, y, collidables[i])) {
 			hspeed = 0;
