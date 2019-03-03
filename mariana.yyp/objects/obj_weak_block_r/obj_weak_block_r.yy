@@ -5,13 +5,13 @@
     "name": "obj_weak_block_r",
     "eventList": [
         {
-            "id": "10c34661-b6bf-4eb2-95ee-4846f94dfe52",
+            "id": "e33284e2-7bc6-4a5b-a83f-8951333972be",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
-            "eventtype": 0,
+            "eventtype": 1,
             "m_owner": "3f2452d1-deb1-41dd-8195-95719dc57902"
         }
     ],

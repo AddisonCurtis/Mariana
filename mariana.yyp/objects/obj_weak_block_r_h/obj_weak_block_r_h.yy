@@ -4,7 +4,16 @@
     "mvc": "1.0",
     "name": "obj_weak_block_r_h",
     "eventList": [
-        
+        {
+            "id": "484f332b-f758-48ec-a766-e50d8ca869c7",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 1,
+            "m_owner": "efbc8f78-709d-4e10-8daa-d73355cd7494"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,

@@ -1,1 +1,0 @@
-durability = 3;
