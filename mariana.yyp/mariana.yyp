@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "1595a49f-ea26-4518-8763-41f74f03d423",
+            "Value": {
+                "id": "58e869f0-d2ba-4af3-9e97-c248be2a3eef",
+                "resourcePath": "sounds\\Snd_pickup\\Snd_pickup.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "16840cbe-1fe5-4664-b19d-0cbd9552e30f",
             "Value": {
                 "id": "b1008526-5db5-4c43-b588-6ba0a087ac68",
@@ -580,6 +588,14 @@
                 "id": "e8166130-9ef5-4219-ac07-86fe8d235ccf",
                 "resourcePath": "tilesets\\til_terrain_green\\til_terrain_green.yy",
                 "resourceType": "GMTileSet"
+            }
+        },
+        {
+            "Key": "b7e3f9a2-021a-49c4-96d7-edfbc6ae26c5",
+            "Value": {
+                "id": "af8a6aa7-4daa-4445-bed0-1214a0c49245",
+                "resourcePath": "sounds\\snd_enemy_shot\\snd_enemy_shot.yy",
+                "resourceType": "GMSound"
             }
         },
         {
