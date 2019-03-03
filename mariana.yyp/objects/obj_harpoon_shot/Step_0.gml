@@ -10,11 +10,6 @@ for (var i=0; i<array_length_1d(collidables); i++) {
 	}
 }
 
-if (place_meeting(x-hspeed/2, y-vspeed/2,obj_weak_block))
-{
-	instance_destroy(other);
-}
-
 // Slow down shot from friction and apply "gravity"
 if (abs(hspeed) > 0.1) {
 	hspeed *= 0.995;
