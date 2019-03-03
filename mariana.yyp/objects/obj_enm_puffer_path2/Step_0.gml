@@ -9,9 +9,11 @@ if (distance_to_object(obj_diver) < 350
 	{
 		player_x = obj_diver.x;
 		player_y = obj_diver.y;
-		speed = 2;
-		direction = point_direction(x,y,player_x,player_y);
-		image_angle = direction;
+		if (distance_to_object(obj_diver) > 3) {
+			speed = 2;
+			direction = point_direction(x,y,player_x,player_y);
+			image_angle = direction;
+		}
 	}
 	if (puf_can_shoot == 1)
 	{

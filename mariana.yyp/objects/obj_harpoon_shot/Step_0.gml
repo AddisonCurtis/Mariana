@@ -1,6 +1,4 @@
 // Collison detection
-// For now, just add new collidable objects to this array-
-// (This must be done for every object that can collide, every time some new collidable is added)
 for (var i=0; i<array_length_1d(collidables); i++) {
 	// Instead of preventing a collision, let it overlap a bit and create a new "stuck" version of the shot
 	if (place_meeting(x-hspeed/2, y-vspeed/2, collidables[i])) {
