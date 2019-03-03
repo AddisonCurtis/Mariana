@@ -31,7 +31,7 @@ else if(path_index != path3)
 	image_angle = direction;
 	if (abs(x - start_x) < 2 && abs(y-start_y)<2)
 	{
-		path_start(path0,2,path_action_restart,false);
+		path_start(path3,2,path_action_restart,false);
 	}
 }
 	

@@ -35,23 +35,23 @@
             "id": "57295c04-7138-4480-ac5f-23eee3ca2cc9",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 7232,
-            "y": 64,
+            "x": 6880,
+            "y": 160,
             "speed": 100
         },
         {
             "id": "1c22bb75-92ae-462a-84d9-1e595ddbd3e2",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 7680,
-            "y": 384,
+            "x": 7232,
+            "y": 64,
             "speed": 100
         },
         {
             "id": "516bc03d-85b0-4451-920f-5d4ba6321024",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 7968,
+            "x": 7680,
             "y": 384,
             "speed": 100
         },
@@ -60,14 +60,14 @@
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 7968,
-            "y": 480,
+            "y": 384,
             "speed": 100
         },
         {
             "id": "d1610487-4dd9-42f5-b3cd-f6ffac102d8e",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 7232,
+            "x": 7968,
             "y": 480,
             "speed": 100
         },
@@ -75,7 +75,7 @@
             "id": "e138bfc5-ea97-43e4-b209-0df422314150",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 6656,
+            "x": 7232,
             "y": 480,
             "speed": 100
         },
@@ -83,12 +83,20 @@
             "id": "50eef382-83ec-4649-a5b5-537e11365700",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
-            "x": 6240,
+            "x": 6656,
             "y": 480,
             "speed": 100
         },
         {
             "id": "7076d525-863a-42b9-9577-22ea6feaae52",
+            "modelName": "GMPathPoint",
+            "mvc": "1.0",
+            "x": 6240,
+            "y": 480,
+            "speed": 100
+        },
+        {
+            "id": "bf714a75-eb87-49aa-8b28-777c6df58057",
             "modelName": "GMPathPoint",
             "mvc": "1.0",
             "x": 6240,
