@@ -9,9 +9,9 @@ Joah Reason
 Vivek Pathipati
 
 ## How to play
-Open the game then use either WASD or arrow keys to select either "Start game" to play, or "Controls" to review the controls (also documented below)
+Open the game then use either WASD or arrow keys to select "Start game" to play.
 
-Avoid enemies, collect harpoon ammo/healthpacks, and try to get to the end of the level.
+Avoid/kill enemies, collect harpoon ammo/healthpacks, and try to get to the end of the level.
 
 You will need to shoot the weak rock walls to break them.
 
@@ -19,3 +19,10 @@ You will need to shoot the weak rock walls to break them.
 WASD/arrow keys for movement
 
 Space to fire harpoon gun
+
+### Cheats
+CTRL+C to toggle noclip mode
+
+CTRL+H for infinite health
+
+CTRL+G for infinite ammo
