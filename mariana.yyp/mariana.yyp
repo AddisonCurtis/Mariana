@@ -183,6 +183,14 @@
             }
         },
         {
+            "Key": "33c92969-fe49-4070-afab-19bc77797ff3",
+            "Value": {
+                "id": "4d4dcd45-ee37-42c3-bac5-a2df2b5654b7",
+                "resourcePath": "rooms\\roo_room1\\roo_room1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "33f918eb-3b18-423f-a5f9-71c4c1d299f3",
             "Value": {
                 "id": "acfb4fb8-4536-4001-9e60-83223206716d",
@@ -223,11 +231,27 @@
             }
         },
         {
+            "Key": "3f2452d1-deb1-41dd-8195-95719dc57902",
+            "Value": {
+                "id": "74edf5e2-d441-4007-8949-554f838428e9",
+                "resourcePath": "objects\\obj_weak_block_r\\obj_weak_block_r.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "41a2f047-66c5-48ce-92bc-31c3459d8333",
             "Value": {
                 "id": "d7a426ae-94a1-4bf2-87a5-52b59a8b8dfa",
                 "resourcePath": "objects\\obj_enmy_puffer\\obj_enmy_puffer.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "446c719b-d912-4a11-ae2c-7c7084f26e98",
+            "Value": {
+                "id": "4f2f233d-a7bc-4ea8-bdaf-36a743fa9205",
+                "resourcePath": "sprites\\spr_weak_block_r_h\\spr_weak_block_r_h.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -655,6 +679,14 @@
             }
         },
         {
+            "Key": "cc346bb8-5d4e-41a0-b156-899b49ad39ab",
+            "Value": {
+                "id": "b9110bbb-b959-401b-b0e6-94eca0588ea1",
+                "resourcePath": "sprites\\spr_weak_block_r\\spr_weak_block_r.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cc98d028-7bdd-4680-85f3-c87a7baa481e",
             "Value": {
                 "id": "f21f3b88-75ab-4adf-933e-dff1832825b1",
@@ -743,11 +775,11 @@
             }
         },
         {
-            "Key": "edcd34c4-479a-4af6-998b-3f4f5e2d107e",
+            "Key": "efbc8f78-709d-4e10-8daa-d73355cd7494",
             "Value": {
-                "id": "d2d5ed66-e857-4274-91b8-49893862cd48",
-                "resourcePath": "rooms\\roo_room1\\roo_room1.yy",
-                "resourceType": "GMRoom"
+                "id": "66782007-bbb4-4004-b878-e00333ed07da",
+                "resourcePath": "objects\\obj_weak_block_r_h\\obj_weak_block_r_h.yy",
+                "resourceType": "GMObject"
             }
         },
         {
