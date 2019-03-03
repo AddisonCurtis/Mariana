@@ -3,7 +3,7 @@
 // (This must be done for every object that can collide, every time some new collidable is added)
 
 // We keep checking collision so that if the object it's stuck to vanishes, it will turn back into a live shot
-var collidables = [obj_block, obj_weak_block];
+var collidables = [obj_block, obj_weak_block,obj_weak_block_h];
 var colliding = false;
 
 for (var i=0; i<array_length_1d(collidables); i++) {
