@@ -3,8 +3,9 @@
 
 dist = distance_to_object(obj_diver);
 
-if (dist < 350)
-{
+if (distance_to_object(obj_diver) < 350
+	and not collision_line_first(x, y, obj_diver.x, obj_diver.y, obj_block, false, false)
+	and not collision_line_first(x, y, obj_diver.x, obj_diver.y, obj_weak_block, false, false)) {
 	path_end();
 	if(object_exists(obj_diver))
 	{
@@ -34,4 +35,22 @@ else if(path_index != path3)
 		path_start(path1,2,path_action_restart,false);
 	}
 }
-	
+
+// Collison detection
+// For now, just add new collidable objects to this array-
+// (This must be done for every object that can collide, every time some new collidable is added)
+var collidables = [obj_block, obj_weak_block];
+
+for (var i=0; i<array_length_1d(collidables); i++) {
+	if (place_meeting(x+hspeed, y, collidables[i])) {
+		hspeed = 0;
+		break;
+	}
+}
+
+for (var i=0; i<array_length_1d(collidables); i++) {
+	if (place_meeting(x, y+vspeed, collidables[i])) {
+		vspeed = 0;
+		break;
+	}
+}

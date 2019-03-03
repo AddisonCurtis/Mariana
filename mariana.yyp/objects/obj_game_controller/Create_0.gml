@@ -1,3 +1,4 @@
+dead = false;
 hp = 60;
 ammo = 20;
 

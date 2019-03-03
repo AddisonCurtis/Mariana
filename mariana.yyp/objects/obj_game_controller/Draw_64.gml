@@ -1,3 +1,9 @@
+if (dead) {
+	draw_set_color(c_red);
+	draw_text(display_get_gui_width()/9 , display_get_gui_height()/2, "You died. Press escape to return to the menu");
+}
+
+
 // Drawing health meter
 draw_set_color(c_black);
 draw_rectangle(10, display_get_gui_height()-105, 40, display_get_gui_height()-5, false);
@@ -11,10 +17,17 @@ if (hp > 100) { // If the player has the health cheat on, set the health bar to 
 }
 
 if (hp > 0) {
-	draw_rectangle(15, display_get_gui_height()-10 - hp, 35, display_get_gui_height()-10, false);
+	var val = clamp(hp, 0, 100);
+	draw_rectangle(15, display_get_gui_height() - val, 35, display_get_gui_height()-10, false);
 }
 
 
 // Drawing ammo indicator
+draw_set_color(c_yellow);
+if (ammo < 10000) {
+	draw_text_transformed(50, display_get_gui_height()-40, "Ammo: " + string(ammo), 0.5, 0.5, 0);
+} else {
+	
+}
 
 
