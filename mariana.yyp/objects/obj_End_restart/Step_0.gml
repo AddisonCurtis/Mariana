@@ -13,7 +13,7 @@ if (menuMovement != 0) {
 
 if (max(keyboard_check_released(vk_enter), keyboard_check_released(vk_space), 0)) {
 	switch (selectedChoice) {
-		case 0: room_goto(room_first); break;
+		case 0: room_goto(roo_menu); break;
 		case 1: game_end(); break;
 		default: break;
 	}
