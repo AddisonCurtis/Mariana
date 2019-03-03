@@ -37,7 +37,8 @@ else if(path_index != path3)
 		path_start(path3,2,path_action_restart,false);
 	}
 }
-
+else
+image_angle = direction;
 // Collison detection
 // For now, just add new collidable objects to this array-
 // (This must be done for every object that can collide, every time some new collidable is added)

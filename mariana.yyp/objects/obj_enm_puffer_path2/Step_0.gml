@@ -35,6 +35,8 @@ else if(path_index != path3)
 		path_start(path1,2,path_action_restart,false);
 	}
 }
+else
+image_angle = direction;
 	
 // Collison detection
 for (var i=0; i<array_length_1d(collidables); i++) {
